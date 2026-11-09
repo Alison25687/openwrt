@@ -22,6 +22,7 @@
 	};
 
 	chosen {
+        rootdisk = <&ubi_rootdisk>;
 		stdout-path = "serial0:115200n8";
 	};
 
