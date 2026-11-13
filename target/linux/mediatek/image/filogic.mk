@@ -2578,6 +2578,7 @@ define Device/netcore_n60
   UBINIZE_OPTS := -E 5
   BLOCKSIZE := 128k
   PAGESIZE := 2048
+  KERNEL_IN_UBI := 1
   DEVICE_PACKAGES := kmod-mt7915e kmod-mt7986-firmware mt7986-wo-firmware
   IMAGE_SIZE := 112640k
   IMAGES += factory.bin
